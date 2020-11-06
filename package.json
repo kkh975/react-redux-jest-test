@@ -1,0 +1,41 @@
+{
+  "name": "react-redux-jest-test",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@testing-library/react": "11.1.1",
+    "@types/react-redux": "7.1.11",
+    "@types/redux-actions": "2.6.1",
+    "@types/redux-mock-store": "1.0.2",
+    "@types/styled-components": "5.1.4",
+    "@types/testing-library__react-hooks": "3.4.1",
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-redux": "7.2.2",
+    "react-scripts": "3.3.0",
+    "redux": "4.0.5",
+    "redux-actions": "2.6.5",
+    "redux-mock-store": "1.5.4",
+    "redux-thunk": "2.3.0",
+    "styled-components": "5.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.19",
+    "@types/react-dom": "16.9.5",
+    "typescript": "3.7.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
