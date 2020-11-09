@@ -24,7 +24,7 @@ const Input: React.FC<InputProps> = ({ mode, value = "", onDone }) => {
   );
   const handlerKeyDown = useCallback(
     (e: React.KeyboardEvent<HTMLInputElement>) => {
-      if (e.keyCode === 13) {
+      if (e.key === "Enter") {
         handleDone(val);
       }
     },

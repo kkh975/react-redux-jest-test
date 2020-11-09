@@ -1,9 +1,9 @@
 import * as React from "react";
 import { useCallback } from "react";
-import Input, { InputProps } from "./Input";
+import Input from "./Input";
 import { WrapStyled, ButtonStyled, InputStyled } from "./Item.style";
 
-interface Props {
+export interface ItemProps {
   isDone?: boolean;
   text?: string;
   onToggle: (isChecked: boolean) => void;
@@ -11,7 +11,7 @@ interface Props {
   onRemove: () => void;
 }
 
-const Item: React.FC<Props> = ({
+const Item: React.FC<ItemProps> = ({
   isDone = false,
   text = "",
   onToggle,
